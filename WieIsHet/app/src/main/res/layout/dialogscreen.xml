@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_dialog_layout_design_user_input"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:background="@color/colorPrimaryDark"
+    android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/txtWF"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="LOST"/>
+    <TextView
+        android:layout_marginTop="16dp"
+        android:paddingLeft="26dp"
+        android:paddingRight="26dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:text="Aww you lost, the person you had to find was X. Press OK to restart the game."/>
+    <Button
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/okbuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok" />
+</LinearLayout>

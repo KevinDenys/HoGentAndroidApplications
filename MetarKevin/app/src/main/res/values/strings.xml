@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MetarTaff</string>
+    <string name="title_activity_main">Airports</string>
+    <string name="icaodescription">De ICAO-codes zijn twee- tot vierletterige codes die verwijzen naar navigatiebakens, vliegvelden en weerstations, luchtvaartmaatschappijen of luchtruimen.</string>
+    <string name="airportdescription">Name of the aiport</string>
+    <string name="add">add</string>
+    <string name="cancel">cancel</string>
+    <string name="title_activity_metar_detail">Metar</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="raw">Raw data</string>
+    <string name="explanation">Explenation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="oldmetars">Older Metars</string>
+    <string name="rewmetar">Raw Metar</string>
+    <string name="aiport">Aiport</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="wind_direction">Wind direction</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="gusts">Gusts</string>
+    <string name="sight">Line of sight</string>
+    <string name="doesntExist">The airport you checked doesn\'t exist.</string>
+    <string name="ErrorTitle">Error</string>
+    <string name="errorretrievedata">Could not retrieve data from https://avwx.rest/</string>
+</resources>

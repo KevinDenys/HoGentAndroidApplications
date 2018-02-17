@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/saveGridToImage"
+        android:text="@string/save_grid_as_image"
+        android:textColor="@color/colorTextButton"
+        android:layout_margin="5dp"
+        android:background="@drawable/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textColor="@color/colorTextButton"
+        android:id="@+id/newGrid"
+        android:text="@string/newgrid"
+        android:layout_margin="5dp"
+        android:background="@drawable/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/saveGrid"
+        android:text="@string/savegrid"
+        android:textColor="@color/colorTextButton"
+        android:layout_margin="5dp"
+        android:background="@drawable/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+       android:clickable="false"
+        android:text="@string/saved_gridstextview"
+        android:textColor="@color/colorTextButton"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_margin="-5dp"
+        android:background="@drawable/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_margin="5dp"
+        android:id="@+id/recSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,94 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "2:548803780818361204",
+      "lastPropertyId": "10:3490017199506098867",
+      "name": "Metar",
+      "properties": [
+        {
+          "id": "1:6633837672325881430",
+          "name": "id"
+        },
+        {
+          "id": "2:7785526561741658874",
+          "name": "rawMetar"
+        },
+        {
+          "id": "3:347803827129804796",
+          "name": "dayOfMonth"
+        },
+        {
+          "id": "4:3074955981455429737",
+          "name": "time"
+        },
+        {
+          "id": "5:6795999003044411640",
+          "name": "windDirection"
+        },
+        {
+          "id": "6:5974550554446828167",
+          "name": "windSpeed"
+        },
+        {
+          "id": "7:3761403090329028870",
+          "name": "uitSchieters"
+        },
+        {
+          "id": "8:324089955310413077",
+          "name": "sight"
+        },
+        {
+          "id": "10:3490017199506098867",
+          "indexId": "2:16595093778492819",
+          "name": "airportId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2893436444462964469",
+      "lastPropertyId": "3:2719262064226487746",
+      "name": "Airport",
+      "properties": [
+        {
+          "id": "1:4050811237619821794",
+          "name": "id"
+        },
+        {
+          "id": "2:9024327228916634217",
+          "name": "plaatsindicator"
+        },
+        {
+          "id": "3:2719262064226487746",
+          "name": "beschrijving"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "3:2893436444462964469",
+  "lastIndexId": "2:16595093778492819",
+  "lastRelationId": "1:3535923445795838652",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [
+    4901986656243523243
+  ],
+  "retiredIndexUids": [
+    2877565086617842264
+  ],
+  "retiredPropertyUids": [
+    3718504020114747580,
+    4944674200355067728,
+    2557251493389270666,
+    742057103196876416
+  ],
+  "retiredRelationUids": [
+    3535923445795838652
+  ],
+  "version": 1
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Guess who?</string>
+    <string name="yourguesswho">Hold a card to set your Guess Who</string>
+    <string name="hastofind">Your opponement has to find: </string>
+    <string name="restart">Restart</string>
+    <string name="choosepersonfirst">Player 1: has to select the person first!</string>
+    <string name="areyousure" formatted="false">Are you sure you want to select %1s?</string>
+    <string name="suretitel">Sure?</string>
+    <string name="wonmessage">Congratulations, you have won this game. Press okay to restart the game</string>
+    <string name="lostMessage" formatted="false">Aww you have lost, the person you had to find was %1$s. Press okay to restart the game.</string>
+    <string name="lostTitel">Lost</string>
+    <string name="winTitel">Win</string>
+    <string name="resetDb">Reset database</string>
+    <string name="updatedindb">Updated in the database, please restart to see the changes.</string>
+    <string name="removedfromdb">Removed from the database, please restart to see the changes.</string>
+    <string name="somethingwentwrong">Something went wrong, please try again</string>
+</resources>

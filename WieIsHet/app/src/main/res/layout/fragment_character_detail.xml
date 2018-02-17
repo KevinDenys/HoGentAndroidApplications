@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <Button
+                    android:layout_gravity="right"
+                    android:id="@+id/btnRemoveCharacter"
+                    android:text="Remove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/characterImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    />
+                <EditText
+                    android:id="@+id/eName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Title"
+                    android:textSize="30sp" />
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:text="Title"
+                    android:textSize="30sp" />
+                <Button
+                    android:visibility="gone"
+                    android:textColor="#fff"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/btnRestart"
+                    android:text="Restart application"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/eDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Dname"
+                    android:textAlignment="center"
+                    android:text="Description" />
+                <TextView
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Dname"
+                    android:textAlignment="center"
+                    android:text="Description" />
+                <Button
+                    android:layout_gravity="center"
+                    android:id="@+id/btnUpdateCharacter"
+                    android:text="Update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</ScrollView>
+
+
+</LinearLayout>
